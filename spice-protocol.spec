@@ -4,7 +4,7 @@ Name:		spice-protocol
 Version:	0.8.0
 Release:	1
 License:	BSD
-Group:		Libraries
+Group:		Development/Libraries
 Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
 # Source0-md5:	ff6a308c9ff393eb01d0d35b783af7c4
 URL:		http://www.spice-space.org/
