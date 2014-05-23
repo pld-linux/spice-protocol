@@ -1,12 +1,12 @@
 Summary:	SPICE protocol headers
 Summary(pl.UTF-8):	Pliki nagłówkowe protokołu SPICE
 Name:		spice-protocol
-Version:	0.12.6
+Version:	0.12.7
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
-# Source0-md5:	797d18156ab893e48778cb097b21bb2b
+# Source0-md5:	799707321e88df4ecd17c4ccb0cc4ffe
 URL:		http://www.spice-space.org/
 BuildRequires:	rpmbuild(macros) >= 1.446
 BuildArch:	noarch
