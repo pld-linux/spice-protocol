@@ -1,13 +1,13 @@
 Summary:	SPICE protocol headers
 Summary(pl.UTF-8):	Pliki nagłówkowe protokołu SPICE
 Name:		spice-protocol
-Version:	0.12.11
+Version:	0.12.12
 Release:	1
 License:	BSD
 Group:		Development/Libraries
-Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
-# Source0-md5:	422bf0bc1eb34c8af3479a78b28e969b
-URL:		http://www.spice-space.org/
+Source0:	https://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
+# Source0-md5:	3b2886cceaefc228b7afa12300462abd
+URL:		https://www.spice-space.org/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.446
 BuildRequires:	sed >= 4.0
