@@ -1,12 +1,12 @@
 Summary:	SPICE protocol headers
 Summary(pl.UTF-8):	Pliki nagłówkowe protokołu SPICE
 Name:		spice-protocol
-Version:	0.14.3
+Version:	0.14.4
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	https://www.spice-space.org/download/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	950e08044497ca9cf64e368cb3ceb395
+# Source0-md5:	6c8e9b14ce9e6b6357dd5ebd05a1a331
 URL:		https://www.spice-space.org/
 BuildRequires:	meson >= 0.41.0
 BuildRequires:	ninja >= 1.5
