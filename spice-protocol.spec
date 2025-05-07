@@ -1,17 +1,17 @@
 Summary:	SPICE protocol headers
 Summary(pl.UTF-8):	Pliki nagłówkowe protokołu SPICE
 Name:		spice-protocol
-Version:	0.14.4
+Version:	0.14.5
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	https://www.spice-space.org/download/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	6c8e9b14ce9e6b6357dd5ebd05a1a331
+# Source0-md5:	53bfb120525a23a795b5faf134fc1dc7
 URL:		https://www.spice-space.org/
 BuildRequires:	meson >= 0.41.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildArch:	noarch
@@ -34,14 +34,14 @@ biurkowymi.
 %setup -q
 
 %build
-%meson build
+%meson
 
-%ninja_build -C build
+%meson_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%ninja_install -C build
+%meson_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
